@@ -9,7 +9,7 @@ body{background: #eff0f4}
 
 /*content*/
 .photo{margin-top: 1.5rem;width: 100%;height: 10rem;background: #ffffff;}
-.lit{float:left;margin:0 3rem ;height: 10rem;border-right: 1px solid red;padding-right: 3rem;;}
+.lit{float:left;margin:0 3rem ;height: 10rem;border-right: 1px solid red;padding-right: 4rem;;}
 .password{margin-top: 1.5rem;width: 100%;height: 10rem;background: #ffffff;}
 
 
