@@ -5,137 +5,162 @@
 	height     : 5rem;
 	background : #5fc0cd;
 	position   : fixed;
-	left       :0;
-	top        :0;
+	left       : 0;
+	top        : 0;
 	display    : flex;
 	align-items: center;
-	z-index: 99998;
+	z-index    : 99998;
 }
 
 
 .title{
-	color: #ffffff;
-	font-size: 5vw;
-	border:1px solid red;
-	width: 100%;
+	color     : #ffffff;
+	font-size : 5vw;
+	border    : 1px solid red;
+	width     : 100%;
 	text-align: center;
 
 }
 .back { 
-	float:left;
-	width: 20%;
-	border:1px solid red;
+	float : left;
+	width : 20%;
+	border: 1px solid red;
 	
 }
 /*content*/
 .con{
 	position: absolute;
-	top: 5rem;
+	top     : 5rem;
 	
 }
 .beijing{
-	width: 100%;
+	width : 100%;
 	height: 30%;
 }
 .beijing_1 img{
-	width: 100%;
+	width : 100%;
 	height: 100%;
 }
 .beijing_2{
 	position: absolute;
-	top: 2rem;
-	left: 2rem;
+	top     : 2rem;
+	left    : 2rem;
 }
 .beijing_2 img{
-	width: 40%;
+	width : 40%;
 	height: 40%;
 }
 .beijing_3{
 	position: absolute;
-	top: 3rem;
-	left: 7rem;
+	top     : 3rem;
+	left    : 7rem;
 
 }
 .jineng{
-	width: 100%;
-	height: 80px;
-	border-bottom:1px solid #D1BEBE;
-	display    : flex;
-	align-items: center;
+	width        : 100%;
+	height       : 80px;
+	border-bottom: 1px solid #D1BEBE;
+	display      : flex;
+	align-items  : center;
 
 }
 .jineng_1{
-
-	margin: 0 2rem;
-
+	margin     : 0 2rem;
 	border-left: 2px solid #5fc0cd;
 }
 .yaoqiu{
-	width: 100%;
-	height: 80px;
-	border-bottom:1px solid #D1BEBE;
+	width        : 100%;
+	height       : 80px;
+	border-bottom: 1px solid #D1BEBE;
+	display      : flex;
+	align-items  : center;
 }
-.years{
-	width: 100%;
-	height: 80px;
-	border-bottom:1px solid #D1BEBE;
-	display: flex;
+.yaoqiu img{
+	float: left;
+	
+}
+.yaoqiu_1 {
+	float      : left;
+	margin     : 0 2rem;
+	border     : 1px solid red;
+	width      : 5rem;
+	display    : flex;
 	align-items: center;
 }
+
+.years{
+	width        : 100%;
+	height       : 60px;
+	border-bottom: 1px solid #D1BEBE;
+	display      : flex;
+	align-items  : center;
+}
 .years_1{
-	float: left;
-	border-right:1px solid red;
-	text-align: center;
-	padding: 0 2rem;
+	float       : left;
+	border-right: 1px solid #D1BEBE;
+	text-align  : center;
+	padding     : 0 2rem;
+	width       : 17%;
 }
 .years_2{
-	float: left;
-	border:1px solid #D1BEBE;
-	text-align: center;
+	float       : left;
+	padding-left: 2rem;
+	text-align  : center;
+	
 
-}
-.times{
-width: 100%;
-	height: 80px;
-	border-bottom:1px solid #D1BEBE;
-}
-.money{
-width: 100%;
-	height: 80px;
-	border-bottom:1px solid #D1BEBE;
 }
 .myself{
-	width: 100%;
-	height: 280px;
-	border-bottom:1px solid #D1BEBE;
+	width        : 100%;
+	height       : 200px;
+	border-bottom: 1px solid #D1BEBE;
+	display      : flex;
+	align-items  : center;
+	
+}
+.myself_1{
+	float       : left;
+	border-right: 1px solid #D1BEBE;
+	display     : flex;
+	align-items : center;
+	text-align  : center;
+	padding     : 0 2rem;
+	width       : 17%;
+	
+}
+.myself_2{
+	float       : left;
+	padding-left: 2rem;
+	width       : 50%;
+	height      : 150px;
+	display     : flex;
+	align-items : center;
+
+
 }
 
-
-
+.kongbai{
+	width : 100%;
+	height: 120px;
+}
 
 /*footer*/
 .footer{
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 30px;
-	display: flex;
+	position       : fixed;
+	left           : 0;
+	bottom         : 50px;
+	width          : 100%;
+	height         : 30px;
+	display        : flex;
 	justify-content: space-around;
+	background     : #FFFFFF;
 }
 .footer button{
-	border    : none;
-	outline   : none;
-	background: #FFFFFF;
-	font-size: 5vw;
-	color: #5fc0cd;
-	padding: 0 50px;	
-	border:2px solid #5fc0cd;
+	border       : none;
+	outline      : none;
+	background   : #FFFFFF;
+	font-size    : 5vw;
+	color        : #5fc0cd;
+	padding      : 0 50px;	
+	border       : 2px solid #5fc0cd;
 	border-radius: 5px;
-}
-.liuyan{
-	
-}
-.phone{
-	
 }
