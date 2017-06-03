@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no,maximum-scale=1 ">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta chraset="utf-8" content="text/html">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/Bootstrap.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <style type="text/css">
+
+.footer{
+  width: 100%;
+  height: 80px;
+}
+.daohang{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  /*border:1px solid red;*/
+  background: #5fc0cd;
+  }
+.btn-group>button{
+  background: #55a8b3;
+  color: #ffffff;
+  border:none;
+  border-radius: 8px;
+}
+.btn-group>button:hover{
+  background: #ffffff;
+  color: #5fc0cd;
+  border:none;
+}
+  
+  [class=form-control]{
+    border:white;
+    background-color: white;
+    width: 100%;
+  }
+  [class=col-xs-12]{
+    height: 100px;
+    border:1px solid red;
+  }
+
+.dropdown{
+ /* border: 1px solid red;*/
+  display: inline;
+  text-align: center;
+}
+
+.col-xs-4{
+  display: inline;
+  text-align: center;
+}
+.dropdown-menu{
+    min-width: 100px;
+    border: 1px solid red;
+    margin-top: 5px;
+  }
+.btn{
+  width: 100px;
+  background: white;
+  border:none;
+  color: #b4b4b4;
+}
+
+</style>
+<body>
+<div class="footer">
+  <div class="daohang">
+    <div class="btn-group" role="group" aria-label="...">
+      <button type="button" class="btn btn-primary">找雇主</button>
+      <button type="button" class="btn btn-primary">找护工</button>
+      
+    </div>    
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-4">
+        <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        所在地
+        <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        
+        </ul>
+       </div>
+      </div>
+
+      <div class="col-xs-4 ">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            食宿
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-xs-4 ">
+        <div class="dropdown">
+          <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            病人情况
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+      
+      </div>
+      <div class="col-xs-12">
+      
+      </div>
+      <div class="col-xs-12">
+       
+      </div>
+      <div class="col-xs-12">
+      
+      </div>
+      <div class="col-xs-12">
+      
+      </div>
+      <div class="col-xs-12">
+       
+      </div>
+    </div>
+  </div>
+
+
+
+
+</body>
+</html>
