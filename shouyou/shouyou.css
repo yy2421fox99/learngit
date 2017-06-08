@@ -122,17 +122,27 @@ body{
 	color: #fbb435;
 }
 #lunbo{
+	width: 100%;
+	height: 10px;
+	border: 1px solid red;
 	display: flex;
-	justify-content:space-around;
-	border: 1px solid red;
+	justify-content: center;
+
 }
-#lunbo ul{
-	border: 1px solid red;
+#buttons{
 	
+	
+	height: 10px;
+	width: 20%;
+	
+	display: flex;
+	justify-content: space-around;
 }
-#lunbo li{
-	width: 20px;
-	height: 20px;
+#buttons span{
 	float: left;
+	width: 10px;
+	height: 10px;
+	border-radius:  50%;
+	background: #B3A9A9;
 	
 }
