@@ -3,31 +3,45 @@
 	padding: 0;
 	font-size: 16px;
 }
-body{
-	background: #f0f0f0;
+button{
+	border: none;
+	background: none;
+	color: none;
+	outline: none;
+
 }
 .header{
 	width: 100%;
-	height: 5rem;
+	height: 10vh;
 	background: #5FC0CD;
 	display: flex;
 	align-items: center;
 }
-.caidan{
+.header button{
 	border: none;
 	color: #FFFFFF;
 	background: #5fc0cd;
 }
+
+.header button:hover{
+	border: none;
+	color: #FFFFFF;
+	background: #5fc0cd;
+	outline: none;
+}
+
 .con{
-	
+	width: 100%;
+	height: 90vh;
+	background: #f0f0f0;
 
 }
 .history{
 	width: 95%;
-	height: 6rem;
+	height: 10vh;
 	background: #FFFFFF;
 	position: absolute;
-	top: 7rem;
+	top: 12vh;
 	left: 5%;
 	display: flex;
 	justify-content: center;
@@ -47,21 +61,22 @@ body{
 .next button{
 	background: #FFFFFF;
 	color: #e7e7e7;
+	border: none;
 
 }
 .banben{
 	width: 95%;
-	height: 40rem;
+	height: 76vh;
 	background: #FFFFFF;
 	position: absolute;
-	top: 15rem;
+	top: 24vh;
 	left: 5%;
 	
 	
 }
 .til{
 	width: 100%;
-	height:5rem;
+	height:10vh;
 	border-bottom: 2px solid #fdd793;
 	display: flex;
 	align-items: center;
@@ -70,20 +85,14 @@ body{
 	
 }
 .banben_1{
-	/*border: 1px solid red;*/
-	
 	width: 76%;
-	height: 8rem;
+	height: 15vh;
 	margin-top: 2rem;
 	margin-left: 12%;
-	
-
-
 }
 .banben_1_1{
 	width: 100%;
-	height: 6rem;
-
+	height: 9vh;
 	display: flex;
 	justify-content: center;
 	background: #5FC0CD;
@@ -91,23 +100,19 @@ body{
 }
 .banben_1_1 p{
 
-	line-height: 6rem;
+	line-height: 9vh;
 	font-size: 30px;
 	color: #fff;
 }
 .banben_1_2{
 	width: 100%;
-	height: 2rem;
-	
+	height: 6vh;
 	display: flex;
 	justify-content: center;
-	
 }
 .banben_1_2 p{
 	
-	line-height: 2rem;
-	justify-content: center;
-
+	line-height: 6vh;
 }
 .next_1{
 	
@@ -120,21 +125,20 @@ body{
 .next_1 button{
 	background: #FFFFFF;
 	color: #fbb435;
+	border: none;
 }
 #lunbo{
 	width: 100%;
 	height: 10px;
-	border: 1px solid red;
 	display: flex;
 	justify-content: center;
+	position: absolute;
+	bottom: 5vh;
 
 }
 #buttons{
-	
-	
 	height: 10px;
 	width: 20%;
-	
 	display: flex;
 	justify-content: space-around;
 }
@@ -143,6 +147,5 @@ body{
 	width: 10px;
 	height: 10px;
 	border-radius:  50%;
-	background: #B3A9A9;
-	
+	background: #B3A9A9;	
 }

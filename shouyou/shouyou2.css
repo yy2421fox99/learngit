@@ -27,6 +27,13 @@ button{
 	color: #FFFFFF;
 	background: #5fc0cd;
 }
+.header_2 button:hover{
+	border: none;
+	color: #FFFFFF;
+	background: #5fc0cd;
+	outline: none;
+}
+
 .toupiao{
 	color: #FFF;
 }
