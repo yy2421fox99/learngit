@@ -3,66 +3,58 @@
 	padding: 0;
 	font-size: 16px;
 }
-button{
-	border: none;
-	background: none;
-	color: none;
-	outline: none;
-
+html,body,h1,h2,h3,img,p{
+	margin: 0;
+	padding: 0;
 }
-.header{
+
+
+
+header{
 	width: 100%;
 	height: 10vh;
 	background: #5FC0CD;
 	display: flex;
 	align-items: center;
 }
-.header button{
+.header_1 button{
 	border: none;
-	color: #FFFFFF;
+	color: #fff;
 	background: #5fc0cd;
 }
-
-.header button:hover{
+.header_1 button:hover{
 	border: none;
 	color: #FFFFFF;
 	background: #5fc0cd;
 	outline: none;
 }
-
-.con{
+main{
 	width: 100%;
 	height: 90vh;
 	background: #f0f0f0;
-
 }
 .history{
-	width: 95%;
-	height: 10vh;
-	background: #FFFFFF;
-	position: absolute;
-	top: 12vh;
-	left: 5%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
-}
-
-.history_1 p{
-	font-size: 20px;
-	margin: 0 auto;
-}
-
-.next{
+	width: 95%;
 	position: absolute;
-	right: 1%;
+	top: 12vh;
+	left: 5%;
+	height: 10vh;
+	background: #FFFFFF;
 }
-.next button{
+.history p{
+	font-size: 20px;
+}
+.history button{
+	position: absolute;
+	right: 1rem;
+	margin: 0;
+	padding: 0;
 	background: #FFFFFF;
 	color: #e7e7e7;
-	border: none;
-
+	border:none;
 }
 .banben{
 	width: 95%;
@@ -71,18 +63,15 @@ button{
 	position: absolute;
 	top: 24vh;
 	left: 5%;
-	
-	
 }
 .til{
-	width: 100%;
+	
 	height:10vh;
 	border-bottom: 2px solid #fdd793;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: #fbb435;
-	
+	color: #fbb435;	
 }
 .banben_1{
 	width: 76%;
@@ -90,42 +79,37 @@ button{
 	margin-top: 2rem;
 	margin-left: 12%;
 }
-.banben_1_1{
-	width: 100%;
-	height: 9vh;
+h3{
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	height: 9vh;
 	background: #5FC0CD;
-
-}
-.banben_1_1 p{
-
-	line-height: 9vh;
-	font-size: 30px;
 	color: #fff;
 }
-.banben_1_2{
-	width: 100%;
-	height: 6vh;
+.banben_1 p{
 	display: flex;
 	justify-content: center;
+	align-items: center;
+	height: 6vh;
+	font-size: 16px;
+	color: #C5B1B1;
 }
-.banben_1_2 p{
-	
-	line-height: 6vh;
-}
-.next_1{
-	
+.banben button{
 	position: absolute;
-	top:18.5rem;
-	right:0rem;
-	overflow: hidden;
-	
-}
-.next_1 button{
+	top:50%;
+	right:1rem;
 	background: #FFFFFF;
 	color: #fbb435;
+	border:none;
+	margin: 0;
+	padding: 0;
+}
+.banben button:hover{
 	border: none;
+	color: #fbb435;
+	background: #fff;
+	outline: none;
 }
 #lunbo{
 	width: 100%;
@@ -134,7 +118,6 @@ button{
 	justify-content: center;
 	position: absolute;
 	bottom: 5vh;
-
 }
 #buttons{
 	height: 10px;
