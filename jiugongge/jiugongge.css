@@ -1,0 +1,21 @@
+ .box {width:100vw;height:100vw;margin:0 auto;}
+ .box1{
+ 	width: 30vw;
+ 	height: 30vw;
+ 	background: red;
+ 	float: left;
+ 	margin: 1.6667vw;
+	border-radius: 10%;
+ }
+ .no_float{clear: both;}
+ .no_float button{
+ 	width: 100%;
+ 	height: 15vw;
+ 	background: yellow;
+
+ 	border-radius: 10px;
+ }
+
+  .no_float button:hover{
+ 	background: red;
+ } 
